@@ -1,7 +1,7 @@
 // routes/customerRoutes.js
 const express = require('express');
 const router = express.Router();
-const { Customer } = require('../models'); // Assuming you have a Customer model
+const Customer = require('../models/customer'); // Assuming you have a Customer model
 
 // Route to create a new customer
 router.post('/', async (req, res) => {
